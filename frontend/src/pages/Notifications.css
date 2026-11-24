@@ -1,0 +1,45 @@
+.notifications-container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+.notifications-container h1 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.notification-card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+}
+
+.notification-card h3 {
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.notification-card p {
+  margin: 8px 0;
+  color: #555;
+}
+
+.notification-card button,
+.notifications-container > button {
+  padding: 9px 15px;
+  margin: 8px 8px 0 0;
+  border: none;
+  border-radius: 6px;
+  background: #1675d1;
+  color: white;
+  cursor: pointer;
+}
+
+.notification-card button:hover,
+.notifications-container > button:hover {
+  background: #105ba8;
+}

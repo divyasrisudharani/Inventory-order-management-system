@@ -1,0 +1,87 @@
+.my-orders-container {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 25px;
+  color: #222;
+}
+
+.my-orders-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+.order-card {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 22px;
+  margin-bottom: 22px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.06);
+}
+
+.order-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.order-status {
+  padding: 7px 14px;
+  border-radius: 20px;
+  font-weight: 600;
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.order-products {
+  margin: 20px 0;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  padding: 15px 0;
+}
+
+.order-product {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  margin: 12px 0;
+}
+
+.order-total {
+  text-align: right;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.cancel-order-btn {
+  background: #dc2626;
+  color: white;
+  border: none;
+  padding: 11px 20px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.cancel-order-btn:hover {
+  background: #b91c1c;
+}
+
+.orders-empty {
+  text-align: center;
+  padding: 40px;
+  color: #666;
+}
+
+@media (max-width: 600px) {
+  .my-orders-container {
+    padding: 15px;
+  }
+
+  .order-product {
+    flex-direction: column;
+    gap: 5px;
+  }
+}
